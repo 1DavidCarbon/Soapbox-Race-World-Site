@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://soapboxraceworld.ml/xmlrpc.php">
+
+<title>CDN - Soapbox Race World</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v8.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://soapboxraceworld.ml/docs/cdn/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CDN - Soapbox Race World" />
+<meta property="og:description" content="Documentation on CDN A content delivery network (CDN) is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the &hellip;" />
+<meta property="og:url" content="https://soapboxraceworld.ml/docs/cdn/" />
+<meta property="og:site_name" content="Soapbox Race World" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Documentation on CDN A content delivery network (CDN) is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the [&hellip;]" />
+<meta name="twitter:title" content="CDN - Soapbox Race World" />
+<meta name="twitter:image" content="https://lh3.googleusercontent.com/-XlIcO95CVx80xW2MRs5ZLVB407n31faaPOXK2SHVydh1Vh3ii1NUhesyxIvHtZQ7gmY1P1PBuG5qqjo__8c4nIm4ex66q28Ol2XuSqmAG3KYW0Rzg0JvsLCVUHMkkfIiXPwxeXebfx4arrDIbJsVTSxXhn94AN38NT7LhYyO25mWVGF2ZXoFlnwBgiHfPS5l99mtBEV3Pz8mWI4YXDjo1WKv1po6AELwDIBSsE6vXRYIm6DhnrVu6pG9JnROi3oYHZhy6sVsqWXnEcywbwwI6oFVAfqfkGwx32ZGQfJrn_KnZeg6ae-IvH4PwLLgslNit70U1Sn_-xd723kN36M12urYCk1alLVRFNgf0srtiz6yftQ82z2r8PWxLoAE02ePKUKizqKJ8k3WgpksOxebC6USJO3WxQD6B7LKxxHHqQF0RJKHY8MPUVKXd8RL0Dr5P2iTXeD3XVMcu83555Bx5k8LdH-EkymSfms4Yg_nWsnk-cwCGznZ4pW-4ZvMsfGwWXDtR3aJWcx7qQ_6v8j0ANpog9rnKWgwNJeRxTJNJWQzhymglVMPjfcEr1Vdl8PEQ8MUVZz1W_ZVweM44i2sfdHbDRYalhuE0VqTiup0FdyQ43BCKTGreGd6fJgkG0RtW0GzG6mooDTsqTwiiKyEXjo=w594-h609-no" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/soapboxraceworld.ml\/","sameAs":[],"@id":"https:\/\/soapboxraceworld.ml\/#organization","name":"Soapbox Race World","logo":"https:\/\/soapboxraceworld.ml\/wp-content\/uploads\/2018\/12\/SBRW512-Shadow-v2.png"}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Soapbox Race World &raquo; Feed" href="https://soapboxraceworld.ml/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Soapbox Race World &raquo; Comments Feed" href="https://soapboxraceworld.ml/comments/feed/" />
+<link rel='stylesheet' id='bootstrap-css'  href='https://soapboxraceworld.ml/wp-content/themes/Soapbox/css/bootstrap/bootstrap.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://soapboxraceworld.ml/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='vidbg-frontend-style-css'  href='https://soapboxraceworld.ml/wp-content/plugins/video-background/css/pushlabs-vidbg.css?ver=2.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='soapbox-style-css'  href='https://soapboxraceworld.ml/wp-content/themes/Soapbox/style.css?ver=5.0.3' type='text/css' media='all' />
+<style id='soapbox-style-inline-css' type='text/css'>
+.site-header {position: fixed;}
+.site-title a,.site-title a:hover { color:#ffffff}
+.site-description { color:#BDBDBD}
+.site-header,.site-header.header-scrolled { background-color:rgba(32,37,41,0.9)}
+@media only screen and (max-width: 1024px) { .site-header.has-header,.site-header.has-video,.site-header.has-single,.site-header.has-shortcode { background-color:rgba(32,37,41,0.9)} }
+body, .widget-area .widget, .widget-area .widget a { color:#656D6D}
+.footer-widgets, .site-footer, .footer-info { background-color:#202529}
+body {font-family: 'Open Sans', sans-serif;}
+h1, h2, h3, h4, h5, h6, .fact .fact-number, .fact .fact-name, .site-title {font-family: 'Josefin Sans', sans-serif;}
+.site-title { font-size:36px; }
+.site-description { font-size:14px; }
+h1 { font-size:36px; }
+h2 { font-size:30px; }
+h3 { font-size:24px; }
+h4 { font-size:16px; }
+h5 { font-size:14px; }
+h6 { font-size:12px; }
+body { font-size:14px; }
+
+</style>
+<link rel='stylesheet' id='soapbox-body-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C600%2C600italic&#038;ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='soapbox-headings-fonts-css'  href='https://fonts.googleapis.com/css?family=Josefin+Sans%3A300italic%2C300&#038;ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://soapboxraceworld.ml/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://soapboxraceworld.ml/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=3.8.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://soapboxraceworld.ml/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://soapboxraceworld.ml/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://soapboxraceworld.ml/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=2.1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://soapboxraceworld.ml/wp-content/uploads/elementor/css/global.css?ver=1544751582' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-80-css'  href='https://soapboxraceworld.ml/wp-content/uploads/elementor/css/post-80.css?ver=1544757893' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.0.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/plugins/the-preloader/js/preloader-script.js'></script>
+<link rel='https://api.w.org/' href='https://soapboxraceworld.ml/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://soapboxraceworld.ml/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://soapboxraceworld.ml/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.3" />
+<link rel='shortlink' href='https://soapboxraceworld.ml/?p=80' />
+<link rel="alternate" type="application/json+oembed" href="https://soapboxraceworld.ml/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://soapboxraceworld.ml%2Fdocs%2Fcdn%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://soapboxraceworld.ml/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://soapboxraceworld.ml%2Fdocs%2Fcdn%2F&#038;format=xml" />
+      <style type="text/css">
+      #wptime-plugin-preloader{
+        position: fixed;
+        top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+        background:url(https://soapboxraceworld.ml/wp-content/uploads/2019/01/splash.gif) no-repeat #000000 50%;
+        -moz-background-size:300px 300px;
+        -o-background-size:300px 300px;
+        -webkit-background-size:300px 300px;
+        background-size:300px 300px;
+        z-index: 99998;
+        width:100%;
+        height:100%;
+      }
+    </style>
+
+    <noscript>
+        <style type="text/css">
+            #wptime-plugin-preloader{
+              display:none !important;
+            }
+        </style>
+    </noscript>
+    		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("https://soapboxraceworld.ml/wp-content/uploads/2018/12/nfsw_2018-09-22_22-36-36-1024x576.png"); background-position: center center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
+</style>
+<link rel="icon" href="https://soapboxraceworld.ml/wp-content/uploads/2018/12/cropped-retouched2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://soapboxraceworld.ml/wp-content/uploads/2018/12/cropped-retouched2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://soapboxraceworld.ml/wp-content/uploads/2018/12/cropped-retouched2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://soapboxraceworld.ml/wp-content/uploads/2018/12/cropped-retouched2-270x270.png" />
+</head>
+
+<body class="page-template page-template-page-templates page-template-page_fullwidth page-template-page-templatespage_fullwidth-php page page-id-80 page-child parent-pageid-63 custom-background elementor-default elementor-page elementor-page-80">
+    
+    <div id="wptime-plugin-preloader"></div>
+<!--<div class="preloader">
+<div class="preloader-inner">
+  <ul><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+</div>
+</div>
+-->
+<div id="page" class="site">
+  <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+  <header id="masthead" class="site-header" role="banner">
+    <div class="container">
+      <div class="site-branding col-md-4 col-sm-6 col-xs-12">
+        <p class="site-title"><a href="https://soapboxraceworld.ml/" rel="home">Soapbox Race World</a></p><p class="site-description">All In One Community Driven Project</p>      </div>
+      <div class="btn-menu col-md-8 col-sm-6 col-xs-12"><i class="fa fa-navicon"></i></div>
+      <nav id="mainnav" class="main-navigation col-md-8 col-sm-6 col-xs-12" role="navigation">
+        <div class="menu-main-menu-container"><ul id="primary-menu" class="menu"><li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-73"><a href="https://soapboxraceworld.ml/">Home</a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-71"><a href="https://soapboxraceworld.ml/download/">Download</a>
+<ul class="sub-menu">
+	<li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="https://soapboxraceworld.ml/list-of-cdns/">List of CDNs</a></li>
+</ul>
+</li>
+<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href="https://soapboxraceworld.ml/status/">Server Status</a></li>
+<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="https://soapboxraceworld.ml/discords/">Discords</a></li>
+<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="https://soapboxraceworld.ml/how-to-play/">How to Play</a></li>
+<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="https://soapboxraceworld.ml/faq/">FAQ</a></li>
+<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-67"><a href="https://soapboxraceworld.ml/docs/">Docs</a>
+<ul class="sub-menu">
+	<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-80 current_page_item menu-item-104"><a href="https://soapboxraceworld.ml/docs/cdn/">CDN</a></li>
+	<li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162"><a href="https://soapboxraceworld.ml/docs/hosting-a-cdn/">Hosting a CDN</a></li>
+	<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="https://soapboxraceworld.ml/docs/interfaces/">Launcher Interfaces</a></li>
+</ul>
+</li>
+</ul></div>      </nav><!-- #site-navigation -->
+    </div>
+  </header><!-- #masthead -->
+
+      <div class="header-clone"></div>
+    
+
+        
+  
+  <div id="content" class="site-content">
+    <div class="container">
+
+
+
+	<div id="primary" class="content-area fullwidth">
+		<main id="main" class="site-main" role="main">
+
+			
+
+				
+<article id="post-80" class="post-80 page type-page status-publish hentry clearfix">
+	<header class="entry-header">
+		<h1 class="entry-title">CDN</h1>	</header><!-- .entry-header -->
+
+		
+
+	<div class="entry-content">
+				<div class="elementor elementor-80">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section data-id="fc9edf3" class="elementor-element elementor-element-fc9edf3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="98a7e8d" class="elementor-element elementor-element-98a7e8d elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="0ff80a1" class="elementor-element elementor-element-0ff80a1 elementor-widget elementor-widget-heading" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-xxl">Documentation on CDN</h1>		</div>
+				</div>
+				<div data-id="61adb93" class="elementor-element elementor-element-61adb93 elementor-widget elementor-widget-divider" data-element_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator"></span>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="ef2e7c8" class="elementor-element elementor-element-ef2e7c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="45771e5" class="elementor-element elementor-element-45771e5 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="89b0218" class="elementor-element elementor-element-89b0218 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><strong><span class="ILfuVd">A content delivery network <em>(CDN)</em> is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server.</span></strong></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="9c425f8" class="elementor-element elementor-element-9c425f8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="f7f3a7b" class="elementor-element elementor-element-f7f3a7b elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="6dd3679" class="elementor-element elementor-element-6dd3679 elementor-widget elementor-widget-html" data-element_type="html.default">
+				<div class="elementor-widget-container">
+			<img src="https://lh3.googleusercontent.com/-XlIcO95CVx80xW2MRs5ZLVB407n31faaPOXK2SHVydh1Vh3ii1NUhesyxIvHtZQ7gmY1P1PBuG5qqjo__8c4nIm4ex66q28Ol2XuSqmAG3KYW0Rzg0JvsLCVUHMkkfIiXPwxeXebfx4arrDIbJsVTSxXhn94AN38NT7LhYyO25mWVGF2ZXoFlnwBgiHfPS5l99mtBEV3Pz8mWI4YXDjo1WKv1po6AELwDIBSsE6vXRYIm6DhnrVu6pG9JnROi3oYHZhy6sVsqWXnEcywbwwI6oFVAfqfkGwx32ZGQfJrn_KnZeg6ae-IvH4PwLLgslNit70U1Sn_-xd723kN36M12urYCk1alLVRFNgf0srtiz6yftQ82z2r8PWxLoAE02ePKUKizqKJ8k3WgpksOxebC6USJO3WxQD6B7LKxxHHqQF0RJKHY8MPUVKXd8RL0Dr5P2iTXeD3XVMcu83555Bx5k8LdH-EkymSfms4Yg_nWsnk-cwCGznZ4pW-4ZvMsfGwWXDtR3aJWcx7qQ_6v8j0ANpog9rnKWgwNJeRxTJNJWQzhymglVMPjfcEr1Vdl8PEQ8MUVZz1W_ZVweM44i2sfdHbDRYalhuE0VqTiup0FdyQ43BCKTGreGd6fJgkG0RtW0GzG6mooDTsqTwiiKyEXjo=w594-h609-no"		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="6622039" class="elementor-element elementor-element-6622039 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="6ddc55d" class="elementor-element elementor-element-6ddc55d elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="d5d0541" class="elementor-element elementor-element-d5d0541 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><strong>Soapbox Game Launcher allows you to to edit the users CDN in the <em>Settings.ini </em>as seen above.</strong></p><p style="text-align: center;"><em>(Installation from Community fan made installer)</em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="e4a7c09" class="elementor-element elementor-element-e4a7c09 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="39d5822" class="elementor-element elementor-element-39d5822 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="a443045" class="elementor-element elementor-element-a443045 elementor-widget elementor-widget-html" data-element_type="html.default">
+				<div class="elementor-widget-container">
+			<img src="https://lh3.googleusercontent.com/PWAjyMR2H5-pYW_4qEuzHSM9-H1K0A6urAINn3e-CTs17Ssf7ndyG-Y4gobV-QRQjj2jlFG4-tPDX3jyfdNh06oHT9jRQReAApcxRpsGmR1hH0k8dGbE3E6XMF1zVe927jk9ZbYUtR0QQzOqXPEKqnu9bexjcM82AVatG7Zn--aCRSvLxtqazdzmEwMzhH73zqn6KhNa6agmXnCDUrwXuSF7puFHTUeCAjFQNnKKs-DJkXlocm71e9dvUkAGStVFr6fAM3y930gPQCIZt-ZGym5hRY86G2tRDUoEmFM1H1LMQSWcABUIJaFYDmNyhRb-su3xQ_FoLVTTCd5S3HMcePU_-bLFy-o9b2gPwUqyR-zqTNPCF8wkKUgjXhlv3KC25gXKIOyzcM6KhDpjUW7jf1C5J81lxxOrRCJ3w7wReWwS3GpSwFPif-DVrCFXjT_kZAmYTmBDOp4J3oJ88dA5_lbfijEDiIshEN2a0OPv1VOG2CAOoJCA5aN8X3nLLnbshJ3q2pnGjk2NaKZV4OEkYFN5f5AHgtyOKYT4I8eGLokkxBw9KO6sM8Z1RJE1f-YZ7_-CmWDtqz3_EpmVHSpYLLOgLofrKyTqAwALw7Co8jAxD-mWXZOWWdOZQBB1tRBZ5wiAbhm0sB4AFRz2GQL1nQWs=w455-h212-no"		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="456d27d" class="elementor-element elementor-element-456d27d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="5d835f9" class="elementor-element elementor-element-5d835f9 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="70b5f91" class="elementor-element elementor-element-70b5f91 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><strong>Once the Settings.ini is opened in any file editor, a list of options will be shown.</strong></p><p style="text-align: center;"><strong>An option of CDN will be listed although new installations of the game launcher will need to be manually inputted.</strong></p><p style="text-align: center;"><strong>To add a custom CDN replace the URL (if its already set) or add the following; </strong></p><p style="text-align: center;"><em><strong>CDN = &lt;Your URL&gt;</strong></em></p><p style="text-align: center;"><strong>{Without the &lt; &gt;}</strong></p><p style="text-align: center;"><em>(Program Used Notepad++)</em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+
+				
+
+			
+
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+		</div>
+	</div><!-- #content -->
+
+	<div class="footer-wrapper">
+				
+				
+		<footer id="colophon" class="site-footer" role="contentinfo">	
+			<div class="site-info container">
+				<nav id="footernav" class="footer-navigation" role="navigation">
+					<div class="menu-footer-menu-container"><ul id="footer-menu" class="menu"><li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a href="https://soapboxraceworld.ml/download/">Download</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://soapboxraceworld.ml/discords/">Discords</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="https://soapboxraceworld.ml/status/">Server Status</a></li>
+<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="https://soapboxraceworld.ml/faq/">FAQ</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-102"><a href="https://soapboxraceworld.ml/docs/">Docs</a></li>
+</ul></div>				</nav><!-- #site-navigation -->
+				<div class="site-copyright">
+					<a href="https://soapboxraceworld.ml/">Powered by You</a><span class="sep"> | </span>Offical Site: <a href="https://soapboxrace.world/" rel="main site">Soapbox Race World.</a> 				</div>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div>
+
+</div><!-- #page -->
+
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/themes/Soapbox/js/main.js?ver=5.0.3'></script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/themes/Soapbox/js/scripts.min.js?ver=5.0.3'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/themes/Soapbox/js/html5shiv.js?ver=5.0.3'></script>
+<![endif]-->
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-includes/js/wp-embed.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=2.1.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/soapboxraceworld.ml\/wp-admin\/admin-ajax.php","nonce":"cae501bc9a","shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=2.1.7'></script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.5.0'></script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js?ver=4.4.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var elementorFrontendConfig = {"isEditMode":"","is_rtl":"","breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.2.4","urls":{"assets":"https:\/\/soapboxraceworld.ml\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":80,"title":"CDN","excerpt":""}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://soapboxraceworld.ml/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.2.4'></script>
+
+</body>
+</html>
+
+
