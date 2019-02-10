@@ -1,5 +1,5 @@
 ---
-name: bug_report
+name: "Bug Report \U0001F41B"
 about: " Something isn't working as expected? Here is the right place to report. "
 title: Website Visual Bug
 labels: ''
