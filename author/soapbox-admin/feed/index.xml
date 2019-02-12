@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>Soapbox Race World</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<title>Soapbox-ADMIN &#8211; Soapbox Race World</title>
+	<atom:link href="/author/soapbox-admin/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>All In One Community Driven Project</description>
 	<lastBuildDate>Sun, 16 Dec 2018 00:05:11 +0000</lastBuildDate>
@@ -20,7 +20,7 @@
 
 <image>
 	<url>/wp-content/uploads/2018/12/cropped-retouched2-32x32.png</url>
-	<title>Soapbox Race World</title>
+	<title>Soapbox-ADMIN &#8211; Soapbox Race World</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>

@@ -6,16 +6,16 @@
 	
 	>
 <channel>
-	<title>Comments for Soapbox Race World</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<title>Comments on: Hello world!</title>
+	<atom:link href="/2018/12/12/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>/2018/12/12/hello-world/</link>
 	<description>All In One Community Driven Project</description>
 	<lastBuildDate>Wed, 12 Dec 2018 00:04:26 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.0.1</generator>
 	<item>
-		<title>Comment on Hello world! by A WordPress Commenter</title>
+		<title>By: A WordPress Commenter</title>
 		<link>/2018/12/12/hello-world/#comment-1</link>
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Wed, 12 Dec 2018 00:04:26 +0000</pubDate>
