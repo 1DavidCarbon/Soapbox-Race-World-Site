@@ -9,19 +9,22 @@
 
 <channel>
 	<title>Soapbox Race World</title>
-	<atom:link href="https://soapboxraceworld.ml/feed/" rel="self" type="application/rss+xml" />
-	<link>https://soapboxraceworld.ml/</link>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>All In One Community Driven Project</description>
-	<lastBuildDate>Sun, 10 Feb 2019 00:19:29 +0000</lastBuildDate>
+	<lastBuildDate>
+	Sat, 13 Apr 2019 01:41:54 +0000	</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0.3</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.1</generator>
 
 <image>
-	<url>https://soapboxraceworld.ml/wp-content/uploads/2018/12/cropped-retouched2-32x32.png</url>
+	<url>/wp-content/uploads/2019/04/cropped-retouched2-32x32.png</url>
 	<title>Soapbox Race World</title>
-	<link>https://soapboxraceworld.ml/</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
