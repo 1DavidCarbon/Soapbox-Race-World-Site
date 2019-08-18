@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>Soapbox Race World</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<title>Uncategorized &#8211; Soapbox Race World</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Official Site</description>
 	<lastBuildDate>Sat, 17 Aug 2019 23:25:45 +0000</lastBuildDate>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>/wp-content/uploads/2019/08/cropped-retouched2-32x32.png</url>
-	<title>Soapbox Race World</title>
+	<title>Uncategorized &#8211; Soapbox Race World</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
