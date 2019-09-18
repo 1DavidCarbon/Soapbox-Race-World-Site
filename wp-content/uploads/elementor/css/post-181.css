@@ -1,1 +1,10 @@
-.elementor-181 .elementor-element.elementor-element-8c77966 .elementor-divider-separator{border-top-style:solid;border-top-width:1px;width:100%;}.elementor-181 .elementor-element.elementor-element-8c77966 .elementor-divider{padding-top:5px;padding-bottom:5px;}.elementor-181 .elementor-element.elementor-element-52d5b91 .elementor-divider-separator{border-top-style:solid;border-top-width:1px;width:100%;}.elementor-181 .elementor-element.elementor-element-52d5b91 .elementor-divider{padding-top:5px;padding-bottom:5px;}.elementor-181 .elementor-element.elementor-element-dc63751 .elementor-divider-separator{border-top-style:solid;border-top-width:1px;width:100%;}.elementor-181 .elementor-element.elementor-element-dc63751 .elementor-divider{padding-top:5px;padding-bottom:5px;}body.elementor-page-181 h1.entry-title, .elementor-page-title{display:none;}
+.elementor-181 .elementor-element.elementor-element-8c77966 {--divider-border-style: solid;--divider-border-color: #000;--divider-border-width: 1px;}
+.elementor-181 .elementor-element.elementor-element-8c77966 .elementor-divider-separator {width: 100%;}
+.elementor-181 .elementor-element.elementor-element-8c77966 .elementor-divider {padding-top: 5px;padding-bottom: 5px;}
+.elementor-181 .elementor-element.elementor-element-52d5b91 {--divider-border-style: solid;--divider-border-color: #000;--divider-border-width: 1px;}
+.elementor-181 .elementor-element.elementor-element-52d5b91 .elementor-divider-separator {width: 100%;}
+.elementor-181 .elementor-element.elementor-element-52d5b91 .elementor-divider {padding-top: 5px;padding-bottom: 5px;}
+.elementor-181 .elementor-element.elementor-element-dc63751 {--divider-border-style: solid;--divider-border-color: #000;--divider-border-width: 1px;}
+.elementor-181 .elementor-element.elementor-element-dc63751 .elementor-divider-separator {width: 100%;}
+.elementor-181 .elementor-element.elementor-element-dc63751 .elementor-divider {padding-top: 5px;padding-bottom: 5px;}
+body.elementor-page-181 h1.entry-title, .elementor-page-title {display: none;}
