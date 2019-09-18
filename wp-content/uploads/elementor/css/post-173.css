@@ -1,1 +1,4 @@
-.elementor-173 .elementor-element.elementor-element-cc83e86 .elementor-divider-separator{border-top-style:solid;border-top-width:1px;width:100%;}.elementor-173 .elementor-element.elementor-element-cc83e86 .elementor-divider{padding-top:5px;padding-bottom:5px;}body.elementor-page-173 h1.entry-title, .elementor-page-title{display:none;}
+.elementor-173 .elementor-element.elementor-element-cc83e86 {--divider-border-style: solid;--divider-border-color: #000;--divider-border-width: 1px;}
+.elementor-173 .elementor-element.elementor-element-cc83e86 .elementor-divider-separator {width: 100%;}
+.elementor-173 .elementor-element.elementor-element-cc83e86 .elementor-divider {padding-top: 5px;padding-bottom: 5px;}
+body.elementor-page-173 h1.entry-title, .elementor-page-title {display: none;}
